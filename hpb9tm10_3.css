@@ -2,125 +2,126 @@
 /*-------------------- maintable --------------------*/
 
 .hpb-main {
+	width: 900px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	overflow: hidden;
 }
 
 /*-------------------- contents --------------------*/
 
 .hpb-cnt-cell3-x {
-	  
 	font-size: 100%;
-	background-image : url(hpb_i_bg_cnt01.gif);
-	background-repeat: repeat;
+	background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
 }
 
 .hpb-cnt-cell4 {
-	  
 	font-size: 100%;
-	background: #003466;
+	background: #1e293b;
 }
 
 /*-------------------- head --------------------*/
 
 .hpb-head {
+	background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 8px 8px 0 0;
 }
 
 /*-------------------- side --------------------*/
 
 .hpb-side-cell3 {
-	  
 	font-size: 100%;
-	background-image : url(hpb_i_bg_cnt01.gif);
-	background-repeat: repeat;
+	background: linear-gradient(180deg, #f1f5f9 0%, #e2e8f0 100%);
+	width: 180px;
 }
 
-.hpb-side-cell4 {
-	  
-	background: #003466;
-}
 /*-------------------- layout base --------------------*/
 
 .hpb-lb-tb1 {
-	  
-	width: 610px;
+	width: 700px;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .hpb-lb-tb1-cell4 {
-	  
 	font-size: 100%;
-	font-weight: bold;
-	padding: 13px 14px;
-	background: #F0F8FF;
+	font-weight: normal;
+	padding: 20px 24px;
+	background: #ffffff;
+	border-bottom: 1px solid #e2e8f0;
+}
+
+.hpb-lb-tb1-cell4:last-child {
+	border-bottom: none;
 }
 
 /*-------------------- vertical menu --------------------*/
 
 .hpb-vmenu1 {
-	  
 	float: none;
 	width: 100%;
-	background: #003465;
+	background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+	border-radius: 8px;
+	overflow: hidden;
 }
 
 .hpb-vmenu1-head {
-	  
 	height: 12px;
 }
 
 .hpb-vmenu1-link0:link {
-	  
 	text-decoration: none;
 	color: #000000;
 }
 
 .hpb-vmenu1-link0:visited {
-	  
 	color: #000000;
 	text-decoration: none;
 }
 
 .hpb-vmenu1-link0:hover {
-	  
 	color: #000000;
 	text-decoration: underline;
 }
 
 .hpb-vmenu1-link1:link {
-	  
 	font-size: 100%;
-	color: #FFFFFF;
+	color: #f1f5f9;
 	text-decoration: none;
+	display: block;
+	padding: 12px 16px;
+	transition: all 0.3s ease;
 }
 
 .hpb-vmenu1-link1:visited {
-	  
 	font-size: 100%;
-	color: #FFFFFF;
+	color: #f1f5f9;
 	text-decoration: none;
 }
 
 .hpb-vmenu1-link1:hover {
-	  
 	font-size: 100%;
-	color: #FFFFFF;
-	text-decoration: underline;
+	color: #ffffff;
+	text-decoration: none;
+	background: rgba(59, 130, 246, 0.2);
+	transform: translateX(4px);
 }
 
 .hpb-vmenu1-link2:link {
-	  
 	font-size: 100%;
 	color: #FF0000;
 	text-decoration: none;
 }
 
 .hpb-vmenu1-link2:visited {
-	  
 	font-size: 100%;
 	color: #FF0000;
 	text-decoration: none;
 }
 
 .hpb-vmenu1-link2:hover {
-	  
 	font-size: 100%;
 	color: #FF0000;
 	text-decoration: underline;
@@ -134,37 +135,34 @@
 /*-------------------- element type --------------------*/
 
 a:link {
-	  
-	color: #BB4040;
+	color: #3b82f6;
 	text-decoration: none;
+	transition: color 0.3s ease;
 }
 
 a:visited {
-	  
-	color: #BB4040;
+	color: #3b82f6;
 	text-decoration: none;
 }
 
 a:hover {
-	  
-	color: #BB4040;
-	text-decoration: underline;
+	color: #1d4ed8;
+	text-decoration: none;
 }
 
 body {
-	  
-	color: #333333;
+	color: #1e293b;
 	margin-top: 2px;
 	margin-right: 2px;
 	margin-bottom: 2px;
 	margin-left: 2px;
 	font-size: 100%;
-	background: #FFFFFF;
+	background: #f8fafc;
 	text-align: center;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 h1 {
-	  
 	color: #333333;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -175,7 +173,6 @@ h1 {
 }
 
 h2 {
-	  
 	color: #333333;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -186,7 +183,6 @@ h2 {
 }
 
 h3 {
-	  
 	color: #333333;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -197,7 +193,6 @@ h3 {
 }
 
 h4 {
-	  
 	color: #333333;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -208,7 +203,6 @@ h4 {
 }
 
 h5 {
-	  
 	color: #333333;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -219,7 +213,6 @@ h5 {
 }
 
 h6 {
-	  
 	color: #333333;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -230,7 +223,6 @@ h6 {
 }
 
 address {
-	  
 	color: #9b9b9b;
 	margin-top: 8px;
 	margin-right: 0px;
@@ -239,7 +231,6 @@ address {
 }
 
 blockquote {
-	  
 	color: #9b9b9b;
 	margin-top: 8px;
 	margin-right: 15px;
@@ -248,7 +239,6 @@ blockquote {
 }
 
 p {
-	  
 	color: #333333;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -258,7 +248,6 @@ p {
 }
 
 pre {
-	  
 	color: #9b9b9b;
 	margin-top: 8px;
 	margin-right: 0px;
@@ -267,7 +256,6 @@ pre {
 }
 
 ul {
-	  
 	color: #333333;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -282,7 +270,6 @@ th {
 }
 
 select {
-	  
 	color: #333333;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -292,13 +279,11 @@ select {
 }
 
 .hpb-head,.hpb-main {
-	  
 	margin-right: auto;
 	margin-left: auto;
 	text-align: left;
 }
 
 body,body * {
-	  
-	line-height: 150%;
+	line-height: 160%;
 }
